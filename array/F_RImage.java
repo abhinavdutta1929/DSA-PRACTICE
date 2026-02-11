@@ -14,10 +14,10 @@ public class F_RImage {
                 ans[i][j] = image[i][n-1-j]; //for flipping
 
                 if(ans[i][j] == 0){ //for reversing
-                    ans[i][j] = 0;
+                    ans[i][j] = 1;
                 }
                 else {
-                    ans[i][j] = 1;
+                    ans[i][j] = 0;
                 }
             }
         }
