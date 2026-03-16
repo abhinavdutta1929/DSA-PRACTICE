@@ -15,7 +15,7 @@ public class Sieve {
                 for(int j = i*2; j <= n ; j+=i){
                     arr[j] = true;
                 }
-            }
+            }git
         }
         for(int i = 2; i<=n ; i++){
             if(!arr[i])
