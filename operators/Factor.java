@@ -1,0 +1,28 @@
+package operators;
+
+public class Factor {
+    public static void main(String[] args) {
+//        factor1(40);
+factor2(40);
+
+    }
+    static void factor1(int n ){
+        for(int i = 1; i < n; i++){
+            if(n % i == 0){
+                System.out.print(i + " ");
+            }
+        }
+
+    }
+    static void factor2(int n ){
+        for(int i = 1; i < Math.sqrt(n) ; i++){
+            if(n % i ==0){
+                if(n%i == i ){
+                    System.out.print(i + " ");
+                }
+
+                System.out.print(i + " " + n/i + " " );
+            }
+        }
+    }
+}
